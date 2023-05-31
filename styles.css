@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .counts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .count-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .value {
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+/* Button container styles */
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+  
+  #word-frequency-container {
+    margin-top: 20px;
+  }
+  
+  #word-frequency-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #word-frequency-table th,
+  #word-frequency-table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #word-frequency-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  #word-frequency-table td {
+    text-align: center;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .button-spacing {
+    width: 10px;
+  }
+
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .counts-box {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .count-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .value {
+    color: #333;
+  }
+
+  /* Previous CSS styles remain the same */
+
+#highlight-section {
+  margin-top: 20px;
+}
+
+.highlight-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#search-word {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#highlight-button {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#highlight-button:hover {
+  background-color: #0056b3;
+}
+
+#keyword-density {
+  color: #333;
+}
+.keyword-density-section,
+.frequent-words-section {
+  margin-top: 20px;
+}
+
+
+.sidebar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > div {
+  margin-bottom: 20px;
+}
+
+#keyword-density-table,
+#top-10-words-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#keyword-density-table th,
+#keyword-density-table td,
+#top-10-words-table th,
+#top-10-words-table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#keyword-density-table th,
+#top-10-words-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+#keyword-density-table td,
+#top-10-words-table td {
+  text-align: center;
+}
+
+
+.sidebar {
+  margin-top: 20px;
+}
+
+.sidebar-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-item h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar-item table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.sidebar-item th,
+.sidebar-item td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.sidebar-item th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.sidebar-item td {
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tool-description {
+  margin-bottom: 20px;
+}
+
+.tool-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tool-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features {
+  margin-bottom: 20px;
+}
+
+.features h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sample-content {
+  margin-bottom: 20px;
+}
+
+.sample-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sample-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: 10px;
+}

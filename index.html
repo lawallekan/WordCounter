@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Counter - Online Word and Character Counter Tool</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="description" content="Word Counter is a powerful online tool that counts words and characters, improves writing style, detects grammar mistakes, and provides keyword analysis. Try it now for accurate word counts and enhanced writing!">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1 class="title">Word Counter</h1>
+      <p class="subtitle">A Powerful Tool to Count Words, Characters, Lines, and More!</p>
+    </div>
+  </header>
+  <br>
+  <div class="container"><div class="counts-box">
+    <div class="count-item">
+      <span class="label">Word Count:</span>
+      <span id="word-count" class="value">0</span>
+    </div>
+    <div class="count-item">
+      <span class="label">Character Count:</span>
+      <span id="char-count" class="value">0</span>
+    </div>
+    <div class="count-item">
+      <span class="label">Line Count:</span>
+      <span id="line-count" class="value">0</span>
+    </div>
+    <div class="count-item">
+      <span class="label">Unique Word Count:</span>
+      <span id="unique-word-count" class="value">0</span>
+    </div>
+    <div class="count-item">
+      <span class="label">Reading Time:</span>
+      <span id="reading-time" class="value">0</span>
+    </div>
+  </div></div>
+  <br>
+  <div class="container">
+    <div class="input-container">
+      <textarea id="input-text" placeholder="Enter or paste your text here"></textarea>
+      <br>
+      <div class="button-container">
+        <button id="clear-button">Clear</button>
+        <button id="copy-button">Copy</button>
+      </div>
+    </div>
+      <div id="highlight-section">
+        <h2>Word Highlighting</h2>
+        <div class="highlight-controls">
+          <input type="text" id="search-word" placeholder="Enter word to highlight">
+          <button id="highlight-button">Highlight</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+      <div class="container">
+      <div id="keyword-density-section">
+        <h2>Keyword Density</h2>
+        <table id="keyword-density-table">
+          <thead>
+            <tr>
+              <th>Keyword</th>
+              <th>Density</th>
+            </tr>
+          </thead>
+          <tbody id="keyword-density-body">
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <br>
+      <div class="container">
+      <div id="top-10-words-section">
+        <h2>Top 10 Frequent Words</h2>
+        <table id="top-10-words-table">
+          <thead>
+            <tr>
+              <th>Word</th>
+              <th>Frequency</th>
+            </tr>
+          </thead>
+          <tbody id="top-10-words-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <br>
+
+  <div class="container">
+    <section class="tool-description">
+      <h2>What is WordCounter?</h2>
+      <p>Apart from counting words and characters, our online editor can help you to improve word choice and writing style, and, optionally, help you to detect grammar mistakes and plagiarism. To check word count, simply place your cursor into the text box above and start typing. You'll see the number of characters and words increase or decrease as you type, delete, and edit them. You can also copy and paste text from another program over into the online editor above. The Auto-Save feature will make sure you won't lose any changes while editing, even if you leave the site and come back later. Tip: Bookmark this page now.</p>
+    </section>
+  
+    <section class="features">
+      <h2>Features of WordCounter</h2>
+      <ul>
+        <li>Word Count and Character Count</li>
+        <li>Improves Word Choice and Writing Style</li>
+        <li>Grammar Mistake and Plagiarism Detection (optional)</li>
+        <li>Top 10 Keywords and Keyword Density Analysis</li>
+        <li>Details Overview including Speaking and Reading Time</li>
+        <li>Reading Level Indicator</li>
+      </ul>
+    </section>
+  
+    <section class="sample-content">
+      <h2>Sample Content</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend diam et purus tincidunt, nec luctus ex ullamcorper. Phasellus tempus condimentum metus nec commodo. Morbi eu lobortis sapien. Proin nec orci in turpis lacinia laoreet et nec risus. Vivamus at maximus arcu. Fusce sed odio sem. Nulla vel nunc nunc. Etiam ut metus dignissim, rutrum sapien in, efficitur urna.</p>
+      <!-- Repeat the above paragraph multiple times to reach 500 words -->
+    </section>
+  </div>
+  <br>
+  <br>
+  <br>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+        <a href="#privacy">Privacy & Policy</a>
+        <a href="#terms">Terms & Conditions</a>
+        <a href="#more">More Tools</a>
+      </div>
+      <p class="footer-text">© 2023 Word Counter. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
